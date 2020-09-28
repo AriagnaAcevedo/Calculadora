@@ -1,0 +1,60 @@
+package Logica;
+import java.util.Scanner;
+public class Operaciones 
+{
+    Scanner Leer = new Scanner (System.in);
+    double Num1=0, Num2=0, Result=0;
+    
+    public void Suma()
+    {
+        System.out.println("************ Suma ************");
+        System.out.println("Ingresa Dos numero para relaizar tu suma");
+        System.out.println("Numero 1: ");
+        Num1=Leer.nextDouble();
+        System.out.println("Numero 2: ");
+        Num2=Leer.nextDouble();
+        
+        Result=Num1+Num2;
+        
+        System.out.println("El resultado de Tu suma es: "+Result);
+    }
+    public void Resta()
+    {
+        System.out.println("************ Resta ************");
+        System.out.println("Ingresa Dos numero para relaizar tu Resta");
+        System.out.println("Numero 1: ");
+        Num1=Leer.nextDouble();
+        System.out.println("Numero 2: ");
+        Num2=Leer.nextDouble();
+        
+        Result=Num1-Num2;
+        
+        System.out.println("El resultado de Tu Resta es: "+Result);
+    }
+    public void Multiplicacion()
+    {
+        System.out.println("************ Multiplicacion ************");
+        System.out.println("Ingresa Dos numero para relaizar tu Multiplicacion");
+        System.out.println("Numero 1: ");
+        Num1=Leer.nextDouble();
+        System.out.println("Numero 2: ");
+        Num2=Leer.nextDouble();
+        
+        Result=Num1*Num2;
+        
+        System.out.println("El resultado de Tu Multiplicacion es: "+Result);
+    }
+    public void Division()
+    {
+        System.out.println("************ Division ************");
+        System.out.println("Ingresa Dos numero para relaizar tu Division");
+        System.out.println("Dividendo: ");
+        Num1=Leer.nextDouble();
+        System.out.println("Divisor: ");
+        Num2=Leer.nextDouble();
+        
+        Result=Num1/Num2;
+        
+        System.out.println("El resultado de Tu Division es: "+Result);
+    }
+}
