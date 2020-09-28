@@ -12,12 +12,12 @@ public class Menu
         
         while(x==1)
         {
-            System.out.println("*****Binevenido Usuario*****");
+            System.out.println("*****Bienvenido Profesor Favorito*****");
             System.out.println("Por favor elige una de las siguientes opciones");
             System.out.println("1.- Suma");
             System.out.println("2.- Resta");
             System.out.println("3.- Multiplicacion");
-            System.out.println("4.- Divicion");
+            System.out.println("4.- Division");
             System.out.println("5.- Salir");
             Opc=Leer.nextInt();
             
@@ -31,7 +31,7 @@ public class Menu
                         break;
                     case 3: obj.Multiplicacion();
                         break;
-                    case 4: obj.Divicion();
+                    case 4: obj.Division();
                         break;
                     case 5: System.exit(0);
                         break;
